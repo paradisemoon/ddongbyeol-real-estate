@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="똥별 부동산의 아파트, 상가, 원룸·투룸 상품 안내입니다. 상품과 가격은 모두 예시 자료입니다.">
+  <title>상품·서비스 | 똥별 부동산 — 부동산 쇼핑하고 싶을땐?</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="똥별 부동산 홈">
+        <span class="brand-name">똥별 부동산</span>
+        <span class="brand-tagline">부동산 쇼핑하고 싶을땐?</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-controls="main-navigation" aria-expanded="false">☰</button>
+      <nav class="navigation" id="main-navigation" aria-label="주요 메뉴">
+        <ul class="menu-list">
+            <li><a href="index.html">홈</a></li>
+            <li><a href="아파트.html">아파트</a></li>
+            <li><a href="원룸-투룸.html">원룸·투룸</a></li>
+            <li><a href="주택.html">주택</a></li>
+            <li><a href="상가.html">상가</a></li>
+            <li><a href="services.html" aria-current="page">상품·서비스</a></li>
+            <li><a href="about.html">회사 소개</a></li>
+            <li><a href="contact.html">문의하기</a></li>
+            <li><a href="reviews.html">고객 후기</a></li>
+        </ul>
+        <a class="button" href="#consultation" data-dialog="consultation">카카오톡 상담</a>
+      </nav>
+    </div>
+  </header>
+  <!-- 상품·서비스 페이지 담당: 김선미 -->
+  <main class="wrap services-page" id="main">
+    <div class="page-heading services-heading">
+      <h1>상품·서비스</h1>
+      <p>아파트, 상가, 원룸·투룸을 나누어 살펴보고 원하시는 상품을 눌러 주세요.</p>
+    </div>
+    <p class="services-notice">예시 자료 · 이 페이지의 상품과 가격은 모두 가짜 정보입니다.</p>
+    <nav class="services-category-links" aria-label="상품 분류 바로가기">
+      <a href="#apartments">아파트</a>
+      <a href="#shops">상가</a>
+      <a href="#rooms">원룸·투룸</a>
+    </nav>
+    <div id="catalogue-start"><section class="catalogue" data-category="전체"><div class="catalogue-intro"><h2>조건에 맞는 매물 찾기</h2><p>모두 가짜 매물·가격입니다. 상세 보기와 관심 저장을 직접 이용해 보세요.</p></div><form class="catalogue-filters"><div><label>지역·특징 검색<input name="q" type="search" placeholder="예시: 남향, 별빛동"></label></div><div><label>거래 종류<select name="trade"><option value="">전체 거래</option>매매</option>전세</option>월세</option></select></label></div><div><label>주변 조건<select name="theme"><option value="">전체 조건</option value="역">역 가까운 곳</option value="상권">상권 가까운 곳</option></select></label></div><div><label>정렬<select name="sort"><option value="default">추천순</option value="low">가격 낮은 순</option value="high">가격 높은 순</option></select></label></div><label class="saved-only"><input name="saved" type="checkbox"> 관심 매물만 보기</label><button class="plain-button" type="reset">조건 초기화</button></form><p class="catalogue-count" role="status"></p><div class="catalogue-results home-grid home-grid-three"></div><noscript>매물 검색을 이용하려면 브라우저의 화면 동작을 허용해 주세요.</noscript><p class="home-note">관심 매물은 이 브라우저에 저장합니다. 저장이 제한되면 현재 화면에서만 유지됩니다.</p></section></div>
+    <div class="services-preview" aria-label="대표 사진 자리 2칸">
+      <figure class="photo-placeholder">여기에 아파트 거실 사진 · 예시</figure>
+      <figure class="photo-placeholder">여기에 아파트 외관 사진 · 예시</figure>
+    </div>
+    <section class="services-category" id="apartments" aria-labelledby="apartments-title">
+      <h2 id="apartments-title">아파트</h2>
+      <details class="services-product">
+        <summary>34평 아파트 · 2억 3,500만원 · 로얄층 남향<span class="services-detail-hint">눌러서 상세 보기</span></summary>
+        <div class="services-product-body">
+          <p>로얄층은 선호하는 층을 뜻하며, 남향은 주된 창이 남쪽을 향한다는 뜻입니다.</p>
+          <p class="services-note">예시 자료 · 상품 정보와 가격은 가짜이며, 실제 거래할 수 있는 매물이 아닙니다.</p>
+          <a class="button" href="#services-inquiry">이 상품 문의하기</a>
+        </div>
+      </details>
+      <div class="services-gallery" aria-label="아파트 사진 자리 4칸">
+        <figure class="photo-placeholder services-gallery-photo">여기에 아파트 거실 사진 · 예시</figure>
+        <figure class="photo-placeholder services-gallery-photo">여기에 아파트 주방 사진 · 예시</figure>
+        <figure class="photo-placeholder services-gallery-photo">여기에 아파트 침실 사진 · 예시</figure>
+        <figure class="photo-placeholder services-gallery-photo">여기에 아파트 주변 사진 · 예시</figure>
+      </div>
+    </section>
+    <section class="services-category" id="shops" aria-labelledby="shops-title">
+      <h2 id="shops-title">상가</h2>
+      <details class="services-product">
+        <summary>상가 · 1억 2천만원 · 유동인구 많고 주차편리<span class="services-detail-hint">눌러서 상세 보기</span></summary>
+        <div class="services-product-body">
+          <p>지나다니는 사람이 많고 주차가 편리한 조건의 예시 상가입니다.</p>
+          <p class="services-note">예시 자료 · 상품 정보와 가격은 가짜이며, 실제 거래할 수 있는 매물이 아닙니다.</p>
+          <a class="button" href="#services-inquiry">이 상품 문의하기</a>
+        </div>
+      </details>
+      <div class="services-gallery" aria-label="상가 사진 자리 4칸">
+        <figure class="photo-placeholder services-gallery-photo">여기에 상가 외관 사진 · 예시</figure>
+        <figure class="photo-placeholder services-gallery-photo">여기에 상가 내부 사진 · 예시</figure>
+        <figure class="photo-placeholder services-gallery-photo">여기에 상가 주차 공간 사진 · 예시</figure>
+        <figure class="photo-placeholder services-gallery-photo">여기에 상가 주변 사진 · 예시</figure>
+      </div>
+    </section>
+    <section class="services-category" id="rooms" aria-labelledby="rooms-title">
+      <h2 id="rooms-title">원룸·투룸</h2>
+      <details class="services-product">
+        <summary>투룸 · 전세 8,500만원 · 올리모델링<span class="services-detail-hint">눌러서 상세 보기</span></summary>
+        <div class="services-product-body">
+          <p>투룸(방 두 개) 전체를 새롭게 고친 조건의 예시 상품입니다.</p>
+          <p class="services-note">예시 자료 · 상품 정보와 가격은 가짜이며, 실제 거래할 수 있는 매물이 아닙니다.</p>
+          <a class="button" href="#services-inquiry">이 상품 문의하기</a>
+        </div>
+      </details>
+      <div class="services-gallery" aria-label="원룸·투룸 사진 자리 4칸">
+        <figure class="photo-placeholder services-gallery-photo">여기에 원룸 내부 사진 · 예시</figure>
+        <figure class="photo-placeholder services-gallery-photo">여기에 투룸 거실 사진 · 예시</figure>
+        <figure class="photo-placeholder services-gallery-photo">여기에 투룸 주방 사진 · 예시</figure>
+        <figure class="photo-placeholder services-gallery-photo">여기에 투룸 침실 사진 · 예시</figure>
+      </div>
+    </section>
+    <section class="services-inquiry" id="services-inquiry" aria-labelledby="services-inquiry-title">
+      <h2 id="services-inquiry-title">상품 문의하기</h2>
+      <p>연습용 이름과 연락처를 입력해 주세요. 입력 내용은 실제로 전송되거나 저장되지 않습니다.</p>
+      <form class="services-form" id="services-inquiry-form" method="post">
+        <div>
+          <label for="services-name">이름 (필수)</label>
+          <input id="services-name" type="text" placeholder="김○○" maxlength="50" required>
+        </div>
+        <div>
+          <label for="services-phone">연락처 (필수)</label>
+          <input id="services-phone" type="tel" placeholder="010-0000-0001" maxlength="30" required>
+        </div>
+        <div class="services-form-wide">
+          <label for="services-message">문의 내용 (필수)</label>
+          <textarea id="services-message" rows="4" placeholder="예시: 34평 아파트 상담을 원합니다." maxlength="2000" required></textarea>
+        </div>
+        <button class="button services-form-wide" id="services-inquiry-submit" type="submit" disabled>지금 문의하기</button>
+        <p class="services-form-wide services-status" id="services-inquiry-status" role="status" aria-live="polite"></p>
+        <noscript><p>예시 접수 기능은 브라우저의 화면 동작 허용 설정을 켠 뒤 이용해 주세요. 실제 문의는 전송되지 않습니다.</p></noscript>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-inner">
+        <div>
+          <h2 class="footer-name">똥별 부동산</h2>
+          <address>
+            <p>주소: 예시시 예시구 별빛로 123, 1층 (가짜 주소)</p>
+            <p>전화: 010-0000-0001 (가짜 번호)</p>
+            <p>이메일: example@example.com (가짜 이메일)</p>
+          </address>
+        </div>
+        <div class="footer-links">
+          <a href="#privacy" data-dialog="privacy">개인정보 처리방침 (준비 중)</a>
+          <a href="contact.html">문의하기</a>
+        </div>
+      </div>
+      <p class="example-note">예시 자료 · 주소와 연락처는 모두 가짜 정보입니다.</p>
+    </div>
+  </footer>
+  <dialog id="consultation" aria-labelledby="consultation-title">
+    <h2 id="consultation-title">카카오톡 상담</h2>
+    <p>준비 중입니다. 상담 연결 주소가 등록되면 이용하실 수 있습니다.</p>
+    <form method="dialog"><button class="button" type="submit">닫기</button></form>
+  </dialog>
+  <dialog id="privacy" aria-labelledby="privacy-title">
+    <h2 id="privacy-title">개인정보 처리방침</h2>
+    <p>준비 중입니다. 개인정보 처리방침이 들어갈 자리입니다.</p>
+    <form method="dialog"><button class="button" type="submit">닫기</button></form>
+  </dialog>
+<dialog id="property-dialog" aria-labelledby="property-title"><div id="property-detail"></div><form method="dialog"><button class="plain-button" type="submit">닫기</button></form></dialog>
+</body>
+</html>

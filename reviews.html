@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="똥별 부동산의 매매·임대 안내 홈페이지입니다. 현재 준비 중이며, 표시된 회사 정보는 예시 자료입니다.">
+  <title>고객 후기 | 똥별 부동산</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="똥별 부동산 홈">
+        <span class="brand-name">똥별 부동산</span>
+        <span class="brand-tagline">부동산 쇼핑하고 싶을땐?</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-controls="main-navigation" aria-expanded="false">☰</button>
+      <nav class="navigation" id="main-navigation" aria-label="주요 메뉴">
+        <ul class="menu-list">
+            <li><a href="index.html">홈</a></li>
+            <li><a href="아파트.html">아파트</a></li>
+            <li><a href="원룸-투룸.html">원룸·투룸</a></li>
+            <li><a href="주택.html">주택</a></li>
+            <li><a href="상가.html">상가</a></li>
+            <li><a href="services.html">상품·서비스</a></li>
+            <li><a href="about.html">회사 소개</a></li>
+            <li><a href="contact.html">문의하기</a></li>
+            <li><a href="reviews.html" aria-current="page">고객 후기</a></li>
+        </ul>
+        <a class="button" href="#consultation" data-dialog="consultation">카카오톡 상담</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap services-page" id="main"><div class="page-heading"><h1>고객 후기</h1><p>아래 이름과 후기는 모두 가짜 예시이며 실제 고객의 경험이 아닙니다.</p></div><section class="home-section"><h2>이용 이야기 · 예시</h2><div class="review-filters"><button class="plain-button" data-review-filter="전체" aria-pressed="true">전체</button><button class="plain-button" data-review-filter="집을 찾으며" aria-pressed="false">집을 찾으며</button><button class="plain-button" data-review-filter="상가를 찾으며" aria-pressed="false">상가를 찾으며</button></div><div class="home-grid home-grid-three"><figure class="home-card home-review" data-review="집을 찾으며"><figcaption>김○○ <span class="home-review-label">예시 후기</span></figcaption><p>집을 찾으며</p><blockquote>“역 근처에서 살고 싶다는 조건을 차분하게 들어 주셨어요.”</blockquote></figure><figure class="home-card home-review" data-review="상가를 찾으며"><figcaption>이○○ <span class="home-review-label">예시 후기</span></figcaption><p>상가를 찾으며</p><blockquote>“주변 편의시설과 주차 조건을 함께 살펴볼 수 있어 좋았어요.”</blockquote></figure><figure class="home-card home-review" data-review="집을 찾으며"><figcaption>박○○ <span class="home-review-label">예시 후기</span></figcaption><p>집을 찾으며</p><blockquote>“어려운 표현을 쉽게 설명해 주셔서 이해하기 편했어요.”</blockquote></figure></div></section></main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-inner">
+        <div>
+          <h2 class="footer-name">똥별 부동산</h2>
+          <address>
+            <p>주소: 예시시 예시구 별빛로 123, 1층 (가짜 주소)</p>
+            <p>전화: 010-0000-0001 (가짜 번호)</p>
+            <p>이메일: example@example.com (가짜 이메일)</p>
+          </address>
+        </div>
+        <div class="footer-links">
+          <a href="#privacy" data-dialog="privacy">개인정보 처리방침 (준비 중)</a>
+          <a href="contact.html">문의하기</a>
+        </div>
+      </div>
+      <p class="example-note">예시 자료 · 주소와 연락처는 모두 가짜 정보입니다.</p>
+    </div>
+  </footer>
+  <dialog id="consultation" aria-labelledby="consultation-title">
+    <h2 id="consultation-title">카카오톡 상담</h2>
+    <p>준비 중입니다. 상담 연결 주소가 등록되면 이용하실 수 있습니다.</p>
+    <form method="dialog"><button class="button" type="submit">닫기</button></form>
+  </dialog>
+  <dialog id="privacy" aria-labelledby="privacy-title">
+    <h2 id="privacy-title">개인정보 처리방침</h2>
+    <p>준비 중입니다. 개인정보 처리방침이 들어갈 자리입니다.</p>
+    <form method="dialog"><button class="button" type="submit">닫기</button></form>
+  </dialog>
+<dialog id="property-dialog" aria-labelledby="property-title"><div id="property-detail"></div><form method="dialog"><button class="plain-button" type="submit">닫기</button></form></dialog>
+</body>
+</html>
